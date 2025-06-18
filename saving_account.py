@@ -7,6 +7,6 @@ class SavingAccount(Account):
 
     def withdraw(self, amount,limit):
          if amount>limit:
-             print("You Have exceeed you limit of transaction")
+             print("You  exceeed limit of transaction")
          else:
             super().withdraw(amount)
